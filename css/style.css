@@ -1,17 +1,30 @@
-.kirmizi{
-    color:red;
-    text-align: right;
-    background-color: aquamarine;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{ 
+box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    font-size: 19px;
 }
 a{
-    text-decoration: none;
-    font-weight: 400;
+text-decoration: none;
+font-weight: 400;
 }
-.kutu{
-    width:70%;
-    height: 50px;
-    background-color: blueviolet;
-    border:10px solid rgb(84, 4, 116);
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px red;
+
+input, textarea{
+    border: 1px solid rgb(75, 12, 133);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button{
+    border: 1px solid rgb(125, 54, 190);
+    border-radius: 10px;
+    padding: 10px 30px;
+    background-color: rgb(129, 77, 177);
+    color: white;
+    font-size: 25px;
+    
 }

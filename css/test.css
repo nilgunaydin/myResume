@@ -1,0 +1,26 @@
+.kirmizi{
+    color:red;
+    text-align: right;
+    background-color: aquamarine;
+}
+a{
+    text-decoration: none;
+    font-weight: 400;
+}
+.kutu{
+    width:70%;
+    height: 50px;
+    background-color: blueviolet;
+    border:10px solid rgb(84, 4, 116);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px red;
+}
+
+.container div{
+
+width: 200px;
+height: 200px;
+background-color: blueviolet;
+margin: 20px;
+padding: 20px;
+}
