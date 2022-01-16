@@ -1,8 +1,61 @@
 /* font-size: 150px -> font boyutu
 text-align: center -> yazinin yataydaki konumu icin
 background-color: -> 
-color: renk degidtirir
+color: renk degistirir
+link = css dosyasina baglanmak icin html dosyalarina eklenir
+text-decoration = metnin orasina burasina cizgi cekmek icin -> linklerin alt cizgisini yok edebiliriz none diyerek
+selectors:
+     *{} = tum html elemanlarini secmek icin
+    h1 {} = tum h1 lere islem yapar
+    .classadi {} = genelde bu kullanilir, isim vererek cagirma
+    nokta koymazsak bunu bir html elemani sanar.
+font-style: italic ->  italik kapmak icindir
+font-weight = 100 -> kalinlik siddet saglar
+
+widht = -> html taglarinin yatay olarak kapladigi alani ayarlamak icin kullanilir
+height = -> html taglarinin dikey olarak kapladigi alani ayarlamak icin kullanilir
+   birim olarak 300px veya 70% kullanilabilir
+border : (kutudaki) genislik(px) tip renk ;
+    tipler --> solid , dashed , dotted , inset , outset , none , double , groove , ridge
+sadece bir tarafa border verilebilir --> border-left , border-right , border-bottom , border-top
+border-radius: 8px --> koseleri yumusatmak icin
+shadow: --> golgelendirme 
+    text-shadow: x(dikey uzaklik) y(yatay uzaklik) opacity color
+    box-shadow: 5px 5px 8px red  
+standart ayar = box-sizing: border-box;
+** font degistirmek ; googledan font import edebilirsin , 
+    import kodunu al css in  en ustune yapistir. bir altindakini(font family) de body acip icine yapistir.
+padding = body in icindeki elemanlari sayfanin kenarlarindan uzaklastirir. (form elemanlarinda da kutunun ic genisligini arttirirsin)
+    padding icin iki deger verilirse 1.ust alt padding, 2. sag sol padding olur
+margin = dis taraftan uzakligi belirler (iki eleman arasindaki uzakligi belirler)
+flexbox = html alamanlarinin sayfa uzerindeki yerlesimini ayarlamak icin kullanilir
+    display: flex = bir elemanin icindeki cocuklarini yanyana getirir (sadece cocuklari torunlari degil)
+        flex-direction: --> 2 sekilde olabilir "row: yanyana (default olan bu)" --- "column: altalta"
+        justify-content: --> flex icinde elemanlari hizalar == 6 sekilde olabilir,
+                    flex-start = bas tarafa hizalar
+                    flex-end = son tarafa hizalar
+                    center = ortalar
+                    space-between = esit bosluklarla satira yayar
+                    space-around = esit bosluklarla satira yayar, basta ve sonda da bosluk verir.
+                    spece-evenly = esit bosluklarla satira yayar, basta ve sonda da "esit bosluklar" verir
+            justify-content --> yatayda calisir , bunun dikeyde calisani ---->
+        align-items: --> flex icinde asagi yukari olarak elemanlari hizalar, 4 sekilde olur 
+                    stretch =Tasiyici yuksekligine sigdirir
+                    center = ortalar
+                    flex-start = uste hizalar
+                    flex-end = alta hizalar
 
 
+==================================================================================================================
+==                                    Flex-direction:                                                           ==
+==          row olarak ayarlandığında justifyContent X ekseninde, alignItems Y ekseninde hizalama yapar.        ==
+==                                                                                                              ==
+==                                     Flex-direction:                                                          ==
+==                                                                                                              ==
+==          column olarak ayarlandığında ise tam ters davranırlar.                                              ==
+==================================================================================================================
 
- */
+
+flex: = flexbox icindeki buyukluk oranini belirler.
+gap: 10px = flex elemanlarinin arasini acar.
+ 
