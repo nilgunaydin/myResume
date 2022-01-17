@@ -21,7 +21,7 @@ sadece bir tarafa border verilebilir --> border-left , border-right , border-bot
 border-radius: 8px --> koseleri yumusatmak icin
 shadow: --> golgelendirme 
     text-shadow: x(dikey uzaklik) y(yatay uzaklik) opacity color
-    box-shadow: 5px 5px 8px red  
+    box-shadow: 5px 5px 8px red  (ilk deger sag sol ayarlar 2. ust veya alt: +,+ sag alt demek === 0,0 her tarafa)
 standart ayar = box-sizing: border-box;
 ** font degistirmek ; googledan font import edebilirsin , 
     import kodunu al css in  en ustune yapistir. bir altindakini(font family) de body acip icine yapistir.
@@ -57,5 +57,5 @@ flexbox = html alamanlarinin sayfa uzerindeki yerlesimini ayarlamak icin kullani
 
 
 flex: = flexbox icindeki buyukluk oranini belirler.
-gap: 10px = flex elemanlarinin arasini acar.
+gap: 10px = flex elemanlarinin arasini acar.(cocuklarin)
  

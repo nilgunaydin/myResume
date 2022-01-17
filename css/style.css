@@ -5,8 +5,9 @@ box-sizing: border-box;
 }
 body{
     font-family: 'Montserrat', sans-serif;
-    padding: 20px;
+    padding: 10px;
     font-size: 19px;
+    background-color:rgba(215, 190, 238, 0.719);
 }
 a{
 text-decoration: none;
@@ -17,6 +18,7 @@ input, textarea{
     border: 1px solid rgb(75, 12, 133);
     border-radius: 10px;
     padding: 10px;
+    width: 100%;
 }
 
 button{
@@ -44,16 +46,96 @@ border-radius: 60px;
 gap: 10px;
 
 }
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+   
+}
 .content .about {
     display: flex;
+    justify-content: space-between;
+    width:85%;
+    gap: 25px;   
+}
+
+.content .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
 }
 
 .content .about img{
 width: 400px;
 height: 400px;
-border-radius: 250px;
-border: 15px solid  rgb(129, 77, 177);
-margin: 40px;
+border-radius: 200px;
+border: 14px solid  rgb(129, 77, 177);
 
+
+}
+
+.content .toolbar{ display: flex;
+
+}
+.content .toolbar a{
+background-color:  rgb(129, 77, 177);
+width: 100px;
+height: 100px;
+border-radius: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 17px;
+font-weight: 650;
+box-shadow: 3px 3px 8px rgb(41, 11, 70);
+}
+
+.section { width: 60%;}
+
+.section .card{
+display: flex;
+border-radius: 20px ;
+align-items: center;
+border:2px solid rgb(66, 19, 110);
+padding: 30px;
+margin-bottom: 40px;
+gap: 15px;
+
+box-shadow: 3px 3px 8px rgb(41, 11, 70);}
+
+.section .card .left{
+    flex: 3;
+
+}
+.section .card .right{
+flex: 2;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px dotted rgb(90, 32, 145);
+}
+.section .form-row{
+margin-bottom: 20px;
+
+}
+.content h1 span, .header .title span{
+    background-color:rgb(90, 32, 145);
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.content h1{display: flex;
+gap: 15px; }
+
+.section .card h2{
+color:rebeccapurple;}
+
+.header .menu a{
+
+    font-weight: 600;
+    color:rgb(41, 11, 70);
+    
 }
